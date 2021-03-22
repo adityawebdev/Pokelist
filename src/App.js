@@ -38,7 +38,7 @@ const App = () => {
   }
   return (
     <div>
-      <h1 style={{ color: "orangered" }}>Pokedex</h1>
+      <h1 style={{ color: "orangered" }}>Pokelist</h1>
       <PokeList pokemon={pokemon} />
       <Pagination
         nextPage={nextPageUrl ? nextPage : null}
